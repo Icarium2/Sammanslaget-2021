@@ -23,6 +23,10 @@
   font-size: 19px;
 }
 
+.textContent a:hover {
+  border-bottom: 2px solid var(--orange);
+}
+
 .hearts {
   margin-top: 30px;
 }
