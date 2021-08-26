@@ -47,6 +47,7 @@ h1 {
   width: 50px;
   height: 50px;
   background: url("/assets/images/fullscreen.svg") no-repeat center;
+  cursor: pointer;
 }
 #unity-fullscreen-button:hover {
   transform: scale(1.5) rotate(180deg);
@@ -94,6 +95,4 @@ nav li {
   font-size: 20px;
   padding: 15px;
   font-weight: bold;
-}
-.fullscreenText {
 }

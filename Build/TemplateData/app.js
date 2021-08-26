@@ -9,15 +9,15 @@ const config = {
   productName: "Unity-Sammanslaget-2021",
   productVersion: "1.0",
 };
-const fullscreenText = document.querySelector(".fullscreenText");
+
 const container = document.querySelector("#unity-container");
 const canvas = document.querySelector("#unity-canvas");
 const loadingBar = document.querySelector("#unity-loading-bar");
 const progressBarFull = document.querySelector("#unity-progress-bar-full");
 const fullscreenButton = document.querySelector("#unity-fullscreen-button");
 
-canvas.style.width = "700px";
-canvas.style.height = "400px";
+canvas.style.width = "900px";
+canvas.style.height = "500px";
 
 loadingBar.style.display = "block";
 
