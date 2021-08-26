@@ -1,0 +1,133 @@
+body {
+  background-color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.card-container:hover .flip {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+.flip {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.5s;
+  -moz-transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--stone);
+  border-radius: 10px;
+}
+
+.front {
+  z-index: 1;
+  background-color: var(--oceanblue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-container,
+.front,
+.back {
+  width: 300px;
+  height: 400px;
+}
+
+.back {
+  transform: translateY(180deg);
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  background-color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.profile-name,
+.profile-title,
+.profile-program {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.profile-program {
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: 200;
+  color: var(--dusk);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.social-links a {
+  font-size: 20px;
+  color: var(--black);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.social-links a:hover {
+  color: var(--warmth);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5),
+  (max-width: 1000px) {
+  .grid {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .card-container,
+  .front,
+  .back {
+    width: 300px;
+    height: 330px;
+  }
+
+  .back {
+    padding: 2.5px;
+  }
+}
