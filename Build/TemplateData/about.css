@@ -36,7 +36,7 @@
 }
 
 .flip-card-front {
-  background-color: var(--orange);
+  background-color: var(--dawnblue);
   color: black;
 }
 
@@ -48,12 +48,12 @@
 
 h1 {
   font-size: 25px;
+  color: var(--yellow);
 }
 .flip-card-front p {
   font-size: 15px;
 }
 
-h1,
 p {
   color: whitesmoke;
 }

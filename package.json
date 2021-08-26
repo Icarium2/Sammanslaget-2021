@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "autoprefixer": "^10.3.2",
-    "postcss": "^8.3.6"
-  },
-  "dependencies": {
-    "materialize-css": "^1.0.0-rc.2"
-  }
-}
