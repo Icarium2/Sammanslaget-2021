@@ -14,6 +14,7 @@
 }
 .textContent p {
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .textContent a {
@@ -22,9 +23,12 @@
   font-size: 19px;
 }
 
+.hearts {
+  margin-top: 30px;
+}
 .hearts img {
   margin-top: 100px;
-  padding: 5px;
-  height: 40px;
-  width: 40px;
+  padding: 10px;
+  height: 80px;
+  width: 80px;
 }

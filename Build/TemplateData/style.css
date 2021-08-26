@@ -84,7 +84,7 @@ nav li {
   display: inline-block;
 }
 a:hover {
-  border-bottom: 2px solid var(--oceanblue);
+  border-bottom: 2px solid var(--dawnblue);
 }
 
 .logo {
