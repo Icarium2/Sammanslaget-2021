@@ -1,0 +1,22 @@
+.contentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.headlineWrapper h1 {
+  color: var(--orange);
+}
+.textContent {
+  width: 40%;
+}
+.textContent p {
+  font-size: 18px;
+}
+
+.textContent a {
+  color: var(--dawnblue);
+  font-weight: bold;
+}
