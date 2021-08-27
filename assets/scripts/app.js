@@ -12,7 +12,7 @@
   };
   setTimeout(function () {
     document.querySelector(".sorrybro").remove();
-  }, 5000);
+  }, 3000);
   const container = document.querySelector("#unity-container");
   const canvas = document.querySelector("#unity-canvas");
   const loadingBar = document.querySelector("#unity-loading-bar");
