@@ -49,6 +49,7 @@ body {
   background: url("/assets/images/fullscreen.svg") no-repeat center;
   cursor: pointer;
   color: var(--orange);
+  transition: 400ms ease-in-out;
 }
 #unity-fullscreen-button:hover {
   transform: scale(1.5) rotate(180deg);

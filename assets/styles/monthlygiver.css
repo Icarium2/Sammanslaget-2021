@@ -20,7 +20,7 @@
 .textContent a {
   color: var(--dawnblue);
   font-weight: bold;
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .textContent a:hover {
