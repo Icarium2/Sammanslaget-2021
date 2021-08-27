@@ -103,3 +103,6 @@ a:hover {
   padding: 15px;
   font-weight: bold;
 }
+p {
+  font-family: "Lato", sans-serif;
+}
