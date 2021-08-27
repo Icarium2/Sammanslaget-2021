@@ -106,3 +106,11 @@ a:hover {
 p {
   font-family: "Lato", sans-serif;
 }
+h1,
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  font-size: 30px;
+}

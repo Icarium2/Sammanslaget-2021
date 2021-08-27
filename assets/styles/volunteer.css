@@ -13,14 +13,14 @@
   width: 40%;
 }
 .textContent p {
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 30px;
 }
 
 .textContent a {
   color: var(--dawnblue);
   font-weight: bold;
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .textContent a:hover {
